@@ -2,7 +2,7 @@ language: node_js
 
 node_js:
 
-  - 10.16.0
+  - 12.7.0
 
 before_script:
   - mkdir -p data/db
@@ -13,4 +13,4 @@ before_script:
 script:
 
   - npm run start-babel
-  - cd client && nmp install
+  - cd client && npm install
